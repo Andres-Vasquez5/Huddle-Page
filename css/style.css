@@ -33,7 +33,7 @@ body {
     flex-direction: row;
 }
 .nav__logo{
-    width: 45%;
+    width: 48%;
     max-width: 200px;
 }
 .nav__img{
@@ -264,6 +264,7 @@ body {
 }
 .footer .email{
     background-color: aliceblue;
+    color: black;
     width: 90%;
     margin: 0 auto;
     border-radius: 8px;
@@ -510,5 +511,153 @@ body {
         padding: 5px;
         margin: 50px 0;
         font-size: 80px;
+    } 
+}
+@media (min-width:1880px){
+    .nav__container{
+        display: flex;
+        width: 90%;
+        max-width: 2000px;
+        margin: 20px auto 90px;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .nav__logo{
+        width: 13%;
+        max-width: 300px;
+    }
+
+    .nav__links{
+        width: 100%;
+        max-width: 230px;
+        margin-top: 30px;
+    }
+    .nav__link{
+        width: 100%;
+        font-size: 25px;
+        border-radius: 40px;
+    }
+
+    .presentacion__container{
+        font-size: 70px;
+    } 
+    .presentacion__texts{
+        margin-top: 90px;
+        gap: 95px;
+        width: 55%;
+    }
+    h2{
+        font-size: 60px;
+    }
+    p{
+        font-size: 31px;
+    }
+    .cta{
+        font-size: 25px;
+        border-radius: 30px;
+        width: 30%;
+        max-width: 400px;
+        margin: 40px auto 0;
+        padding: 15px 10px;
+        
+    }
+    .presentacion__images{
+   
+        max-width: 750px;
+        margin-top: 200px;
+    }
+    
+    .middleSection{
+        margin: 400px 0 ;
+        gap: 300px;
+    }
+    .middleSection1__img, .middleSection2__img{
+        width: 100%;
+        max-width: 60px;
+    }
+    .middleSection1__number, .middleSection2__number{
+        font-size: 120px;
+    }
+    .middleSection1__paragraph, .middleSection2__paragraph{
+        font-size: 25px;
+    }
+    
+      .wave{
+    
+        height: 200px;
+        width: 100%;
+        background-repeat: no-repeat;
+        
+    
+        background-size: 100% 200px;
+    }
+
+       .content{
+        padding: 300px 0;
+    } 
+      .picture{
+        width: 100%;
+        max-width:900px;
+        padding-top: 50px;
+    }
+      .img{
+        width: 80%; 
+        margin: 0 auto;
+        padding-top: 30px;
+        align-self: center;
+    }
+     .texts{
+        font-weight: 100; 
+        font-size: 100px;
+        width: 40%;
+    }
+      .encabezado{
+        font-family: var(--poppins);
+        font-size: 50px;
+    }
+      .paragraph{
+        width: 86%;
+        font-size: 30px;
+        padding-bottom: 60px;
+    }
+    .finish{
+        margin: 330px 0; 
+        gap:50px;
+    }
+    .finish .encabezado{
+        font-size: 60px;
+    }
+     .footer{
+        padding: 20px;
+    } 
+     .footer .texts{
+       font-size: 40px;
+        gap: 10px;
+        width: 50%;
+        margin: 0 auto;
+        padding: 0;
+    } 
+    .footer.paragraph{
+        font-size:25px;
+        padding: 0;
+    }
+    .footer .contact{
+        margin-top: 20px;
+        gap: 20px;
+    }
+     .footer .email{
+        border-radius: 20px;
+        height: 40px;
+        font-size: 20px;
+        padding: 10px;
+    }
+    .footer .button{
+        border-radius: 20px;
+        width: 30%;
+        max-width: 200px;
+        padding: 5px;
+        margin: 50px 0 0;
+        font-size: 25px;
     } 
 }
