@@ -21,7 +21,7 @@ body {
 .header__container{
 
     position: relative;
-    --wave-bottom: url(/huddle-landing-page-with-curved-sections-master/images/bg-section-top-mobile-1.svg);
+    --wave-bottom: url(bg-section-top-mobile-1.svg);
 }
 .nav__container{
     display: flex;
@@ -169,10 +169,10 @@ body {
 
 .article{
     width: 100%;
-    --wave-top: url(/huddle-landing-page-with-curved-sections-master/images/bg-section-bottom-mobile-1.svg);
-    --wave-bottom: url(/huddle-landing-page-with-curved-sections-master/images/bg-section-top-mobile-2.svg);
-    --wave-top2: url(/huddle-landing-page-with-curved-sections-master/images/bg-section-bottom-mobile-2.svg);
-    --wave-bottom2: url(/huddle-landing-page-with-curved-sections-master/images/bg-footer-top-mobile.svg);
+    --wave-top: url(bg-section-bottom-mobile-1.svg);
+    --wave-bottom: url(bg-section-top-mobile-2.svg);
+    --wave-top2: url(bg-section-bottom-mobile-2.svg);
+    --wave-bottom2: url(bg-footer-top-mobile.svg);
 }
   .content{
     display: flex;
@@ -284,13 +284,13 @@ body {
 @media (min-width: 700px){
     .header__container{
         position: relative;
-        --wave-bottom: url(/huddle-landing-page-with-curved-sections-master/images/bg-section-top-desktop-1.svg);
+        --wave-bottom: url(bg-section-top-desktop-1.svg);
     }
     .article{
-        --wave-top: url(/huddle-landing-page-with-curved-sections-master/images/bg-section-bottom-desktop-1.svg);
-        --wave-bottom: url(/huddle-landing-page-with-curved-sections-master/images/bg-section-top-desktop-2.svg);
-        --wave-top2: url(/huddle-landing-page-with-curved-sections-master/images/bg-section-bottom-desktop-2.svg);
-        --wave-bottom2: url(/huddle-landing-page-with-curved-sections-master/images/bg-footer-top-desktop.svg);
+        --wave-top: url(bg-section-bottom-desktop-1.svg);
+        --wave-bottom: url(bg-section-top-desktop-2.svg);
+        --wave-top2: url(bg-section-bottom-desktop-2.svg);
+        --wave-bottom2: url(bg-footer-top-desktop.svg);
     
     }
     .middleSection{
